@@ -44,6 +44,8 @@ public class App {
         app.result = new Fraction();
         
         int n, a ,b;
+        boolean control1 = false;
+        boolean control2 = false;
         boolean cont = true;
 
         do {
@@ -62,9 +64,6 @@ public class App {
             String integerError = "Please enter an integer!";
             String numeratorPrompt = "Enter the numerator: ";
             String denominatorPrompt = "Enter the denominator: ";
-
-            boolean control1 = false;
-            boolean control2 = false;
 
             n = getInteger(message, errorMessage);
             switch (n) {
@@ -95,6 +94,7 @@ public class App {
                         app.fraction2.setDenominator(b);
                         app.fraction2.setNumerator(a);
 
+                        control2 = true;
                         System.out.println(app.fraction2);
                     } catch (Exception e) {
                         System.out.println(e.getMessage());
