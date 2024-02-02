@@ -34,7 +34,7 @@ Sau đó thì vào chạy test thôi, nhấn cái nút play ▶️ ở góc trê
 
 
 ## Need Fix
-Các trường hợp định dạng input không phải số nguyên thì sẽ báo lỗi và bắt nhập lại nay, nhưng nếu là số nguyên ngoài 1-7 thì sẽ in cả menu lại. Xem hình dưới
+Các trường hợp định dạng input không phải số nguyên thì sẽ báo lỗi và bắt nhập lại ngay, nhưng nếu là số nguyên ngoài 1-7 thì sẽ in cả menu lại. Xem hình dưới
 
 ![Screenshot 2024-02-02 095933](https://github.com/CongLuanTran/App/assets/152266452/fec23433-9742-4d74-80f0-2854686cf71d)
 
